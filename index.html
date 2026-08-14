@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanta Argentina by Gastón Acurio | Cocina Peruana & Criolla en Buenos Aires</title>
+  <meta name="description" content="Descubre Tanta Argentina por Gastón Acurio en Buenos Aires. Sazones peruanas, ambiente cálido con vegetación, cócteles de autor y los mejores sabores criollos.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/main.d6fcaacf.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🇵🇪</text></svg>">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <span>✨ Sabores de la cocina peruana en el corazón de Buenos Aires</span>
+      <a href="tel:+541176176632" class="top-bar-link">📞 +54 11 7617-6632</a>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <a href="#" class="logo">
+        <span class="logo-title">TANTA</span>
+        <span class="logo-subtitle">ARGENTINA · BY GASTÓN ACURIO</span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Navegación principal">
+        <a href="#menu" class="nav-link">Menú</a>
+        <a href="#experiencia" class="nav-link">Experiencia</a>
+        <a href="#opiniones" class="nav-link">Opiniones</a>
+        <a href="#ubicacion" class="nav-link">Horarios y Ubicación</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:+541176176632" class="btn btn-accent btn-sm header-cta">
+          <span>Llamar / Reservar</span>
+        </a>
+        <button class="burger-btn" id="burgerBtn" aria-label="Abrir menú de navegación">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav" id="mobileNav">
+    <div class="mobile-nav-header">
+      <div class="logo">
+        <span class="logo-title">TANTA</span>
+        <span class="logo-subtitle">ARGENTINA</span>
+      </div>
+      <button class="close-btn" id="closeNavBtn" aria-label="Cerrar menú">&times;</button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="#menu" class="mobile-link">📋 Menú Completo</a>
+      <a href="#experiencia" class="mobile-link">🌿 La Experiencia</a>
+      <a href="#opiniones" class="mobile-link">⭐ Opiniones de Clientes</a>
+      <a href="#ubicacion" class="mobile-link">📍 Ubicación y Horarios</a>
+    </div>
+    <div class="mobile-nav-footer">
+      <a href="tel:+541176176632" class="btn btn-pink w-full">📞 +54 11 7617-6632</a>
+      <div class="mobile-socials">
+        <a href="https://www.instagram.com/tanta_argentina/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          <span>Instagram Oficial</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg-wrapper">
+      <img src="assets/img_01.jpg" alt="Interior moderno y acogedor de Tanta Argentina con vegetación y tonos cálidos" class="hero-bg-img">
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="star-icon">★</span>
+        <span>4.5 (8.700+ opiniones)</span>
+        <span class="badge-dot"></span>
+        <span>Gastón Acurio</span>
+      </div>
+
+      <h1 class="hero-title">Fiesta de Sabores Peruanos & Chifa en Buenos Aires</h1>
+      <p class="hero-description">
+        Un oasis gastronómico donde la tradición criolla, la influencia oriental y la calidez del diseño contemporáneo se fusionan en cada plato.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#menu" class="btn btn-yellow btn-lg">Explorar Menú</a>
+        <a href="tel:+541176176632" class="btn btn-pink btn-lg">Reservar Mesa</a>
+      </div>
+
+      <div class="hero-features">
+        <div class="hero-feature-item">
+          <span class="feature-icon">🌿</span>
+          <div>
+            <strong>Ambiente Encantador</strong>
+            <span>Vegetación e iluminación cálida</span>
+          </div>
+        </div>
+        <div class="hero-feature-item">
+          <span class="feature-icon">🇵🇪</span>
+          <div>
+            <strong>Sazón Auténtica</strong>
+            <span>Recetas del chef Gastón Acurio</span>
+          </div>
+        </div>
+        <div class="hero-feature-item">
+          <span class="feature-icon">🍸</span>
+          <div>
+            <strong>Coctelería de Autor</strong>
+            <span>Pisco Sour y preparaciones únicas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Experience Highlights -->
+  <section class="section experience" id="experiencia">
+    <div class="container">
+      <div class="grid grid-2 items-center gap-xl">
+        <div class="experience-text">
+          <span class="section-tag">EL CONCEPTO</span>
+          <h2 class="section-title">La esencia criolla de Perú en Retiro</h2>
+          <p class="text-body">
+            En Tanta, cada preparación cuenta una historia de encuentro cultural. Desde cebiches frescos y tiraditos de autor hasta un sabroso lomo saltado al wok y platos reconfortantes de pasta criolla.
+          </p>
+          <p class="text-body mt-sm">
+            Diseñado para disfrutar en compañía, nuestro salón destaca por su combinación de maderas nobles, jardines interiores y un ambiente vibrante donde la hospitalidad es siempre protagonista.
+          </p>
+
+          <div class="experience-pills">
+            <span class="pill">Cebiches & Tiraditos</span>
+            <span class="pill">Anticuchos & Piqueos</span>
+            <span class="pill">Cocina Chifa</span>
+            <span class="pill">Postres Tradicionales</span>
+          </div>
+
+          <div class="experience-contact-card">
+            <div class="card-icon">📍</div>
+            <div>
+              <strong>Ubicados en Esmeralda 938</strong>
+              <p>Ciudad Autónoma de Buenos Aires, Argentina</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="experience-media">
+          <div class="media-card media-main">
+            <img src="assets/img_04.jpg" alt="Detalle del comedor elegante con madera oscura e iluminación cálida en Tanta" loading="lazy">
+            <div class="media-caption">
+              <span>Diseño & Jardines Interiores</span>
+            </div>
+          </div>
+          <div class="media-card media-sub">
+            <img src="assets/img_03.jpg" alt="Bartender profesional preparando un clásico Pisco Sour" loading="lazy">
+            <div class="media-badge">
+              <span>🍸 Barra de Pisco</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Dish Showcase -->
+  <section class="section showcase-section">
+    <div class="container">
+      <div class="showcase-card">
+        <div class="showcase-img-wrap">
+          <img src="assets/img_02.jpg" alt="Plato vibrante de cebiche peruano con pescado fresco y guarniciones" loading="lazy">
+        </div>
+        <div class="showcase-info">
+          <span class="badge-pink">PLATO EMBLEMÁTICO</span>
+          <h3>Cebiche Clásico Limeño</h3>
+          <p>Pescado fresco marinando en su leche de tigre al ají limo, acompañado de choclo desgranado, camote glaseado y cebolla morada crujiente.</p>
+
+          <div class="showcase-details">
+            <div class="detail-item">
+              <span class="label">Sugerencia de maridaje:</span>
+              <span class="val">Pisco Sour Tradicional</span>
+            </div>
+            <div class="detail-item">
+              <span class="label">Precio:</span>
+              <span class="val price">$25.000</span>
+            </div>
+          </div>
+
+          <a href="#menu-cebiche" class="btn btn-yellow mt-md inline-flex">Ver más cebiches en el menú</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Menu Section -->
+  <section class="section menu-section" id="menu">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">NUESTRA CARTA</span>
+        <h2 class="section-title">El Menú de Tanta</h2>
+        <p class="section-subtitle">Selección completa de platos tradicionales, piqueos, pastas, salteados al wok y postres.</p>
+      </div>
+
+      <!-- Menu Category Filters -->
+      <div class="menu-tabs-wrapper">
+        <div class="menu-tabs" id="menuTabs">
+          <button class="tab-btn active" data-category="all">Todos</button>
+          <button class="tab-btn" data-category="piqueos">🥟 Los Piqueos</button>
+          <button class="tab-btn" data-category="ensaladas">🥗 Ensaladas</button>
+          <button class="tab-btn" data-category="sanguches">🥪 Sánguches</button>
+          <button class="tab-btn" data-category="pastas">🍝 Las Pastas</button>
+          <button class="tab-btn" data-category="platos-tanta">🍲 Platos de Tanta</button>
+          <button class="tab-btn" data-category="peruanos">🇵🇪 Peruanos de Siempre</button>
+          <button class="tab-btn" data-category="postres">🍰 Los Postres</button>
+        </div>
+      </div>
+
+      <!-- Search Box inside Menu -->
+      <div class="menu-search-bar">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="menuSearch" placeholder="Buscar plato o ingrediente (ej. Lomo, Cebiche, Pisco, Chaufa)...">
+      </div>
+
+      <!-- Menu Container -->
+      <div class="menu-grid-wrapper" id="menuGrid">
+
+        <!-- LOS PIQUEOS -->
+        <div class="menu-category-block" data-cat="piqueos">
+          <h3 class="category-heading">🥟 LOS PIQUEOS</h3>
+          <div class="menu-items-grid">
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Las Croquetas de Choclo con Queso</h4>
+                <span class="item-price">$19.600</span>
+              </div>
+              <p class="item-desc">Acompañadas de salsa de rocoto</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Las Gyozas</h4>
+                <span class="item-price">$19.000</span>
+              </div>
+              <p class="item-desc">Doraditas a la plancha, rellenas de pollo y salsa Tokio</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">La Tortilla de Papas</h4>
+                <span class="item-price">$14.000</span>
+              </div>
+              <p class="item-desc">De papa y cebolla con huevos de corral y pancito grillado</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Los Wantanes de Langostinos</h4>
+                <span class="item-price">$21.500</span>
+              </div>
+              <p class="item-desc">Con su cremita estilo chifa</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Tiradito Chifero</h4>
+                <span class="item-price">$28.000</span>
+              </div>
+              <p class="item-desc">De trucha con leche de tigre chifera con tamarindo y sésamo</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Los Tequeños Limeños</h4>
+                <span class="item-price">$19.000</span>
+              </div>
+              <p class="item-desc">De lomo saltado</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">La Empanada</h4>
+                <span class="item-price">$9.500</span>
+              </div>
+              <p class="item-desc">De lomo saltado, espolvoreada con azúcar impalpable</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Las Wings Pop Bróster</h4>
+                <span class="item-price">$16.500</span>
+              </div>
+              <p class="item-desc">Glaseadas en salsa coreano-limeña dulce y picante</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ENSALADAS -->
+        <div class="menu-category-block" data-cat="ensaladas">
+          <h3 class="category-heading">🥗 ENSALADAS</h3>
+          <div class="menu-items-grid">
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Barranco</h4>
+                <span class="item-price">$26.000</span>
+              </div>
+              <p class="item-desc">Quinua, tomate, pepino, cebolla, aceitunas negras, queso fresco, choclo, palta, rocoto, frijolitos, hierbabuena, hummus de habas y pita chips.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Cesars Bróster</h4>
+                <span class="item-price">$20.300</span>
+              </div>
+              <p class="item-desc">Pechugas de pollo bróster, lechuga romana, crutones, láminas de parmesano y vinagreta Cesars.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Cobb</h4>
+                <span class="item-price">$24.500</span>
+              </div>
+              <p class="item-desc">Pechuga de pollo, queso azul, lechugas, tocino, palta, champiñones, tomate, huevo y vinagreta Dijon.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- LOS SÁNGUCHES -->
+        <div class="menu-category-block" data-cat="sanguches">
+          <h3 class="category-heading">🥪 LOS SÁNGUCHES</h3>
+          <div class="menu-items-grid">
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">El Cordon Bleu</h4>
+                <span class="item-price">$19.500</span>
+              </div>
+              <p class="item-desc">Con milanesa de pollo rellena de jamón y queso en pan ciabatta.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">La Hamburguesa Tanta</h4>
+                <span class="item-price">$20.500</span>
+              </div>
+              <p class="item-desc">Con queso, salsa Tanta, lechuga, tomate, cebolla, pickles, papas al hilo y papitas fritas.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- LAS PASTAS -->
+        <div class="menu-category-block" data-cat="pastas">
+          <h3 class="category-heading">🍝 LAS PASTAS</h3>
+          <div class="menu-items-grid">
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Fettuccine de Infancia</h4>
+                <span class="item-price">$25.800</span>
+              </div>
+              <p class="item-desc">Fettuccine a la crema con pollo, jamón y champiñones gratinados con queso parmesano.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">La Pasta de la Nonna</h4>
+                <span class="item-price">$27.000</span>
+              </div>
+              <p class="item-desc">En salsa de estofado de carne al vino con champiñones, mantequilla y parmesano.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Coditos con Milanesa Huancayo Napoli</h4>
+                <span class="item-price">$36.000</span>
+              </div>
+              <p class="item-desc">Con crema a la huancaína y cubiertos de una milanesa de pollo a la napolitana.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Tallarines Caseros</h4>
+                <span class="item-price">$31.000</span>
+              </div>
+              <p class="item-desc">Con pollo, crema de pesto limeño, cubiertos por una milanesa y un toque de huancaína.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Ravioles de Asado</h4>
+                <span class="item-price">$29.500</span>
+              </div>
+              <p class="item-desc">Bañados en su propio jugo al vino tinto, con cremita de mostaza y parmesano.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Ravioles de los Andes</h4>
+                <span class="item-price">$24.500</span>
+              </div>
+              <p class="item-desc">De choclo con mantequilla y huacatay.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- LOS PLATOS DE TANTA -->
+        <div class="menu-category-block" data-cat="platos-tanta">
+          <h3 class="category-heading">🍲 LOS PLATOS DE TANTA</h3>
+          <div class="menu-items-grid">
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">El Aeropuerto de Quinua</h4>
+                <span class="item-price">$35.000</span>
+              </div>
+              <p class="item-desc">Chaufa aeropuerto de quinua orgánica con pollo y verduras, cubierto de tortilla y salsa de ajo picante.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">El Chanchito Taiwán</h4>
+                <span class="item-price">$25.000</span>
+              </div>
+              <p class="item-desc">Con chanchito crocante a la miel spicy, huevo frito, ensalada de pepino, sobre chaufa blanco.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">El Arroz con Chancho</h4>
+                <span class="item-price">$32.000</span>
+              </div>
+              <p class="item-desc">Arroz al wok, con adobo de cerdo, chicharrón de panceta, chorizo, choclo, pimientos, col y criolla de rabanito y palta.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">El Pollo de la Infancia</h4>
+                <span class="item-price">$28.000</span>
+              </div>
+              <p class="item-desc">Pollo al horno en su jugo, con arroz con choclo y ensalada rusa.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">El Asado de la Abuela</h4>
+                <span class="item-price">$28.000</span>
+              </div>
+              <p class="item-desc">Asado mechado y guisado en su salsa con puré de papa amarilla, arroz con choclo y criolla.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">El Risotto de Chupe</h4>
+                <span class="item-price">$30.000</span>
+              </div>
+              <p class="item-desc">Cremoso risotto de poros, arverjas y choclito en salsa de chupe de langostinos.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Estofado de Res al Vino Tinto</h4>
+                <span class="item-price">$32.000</span>
+              </div>
+              <p class="item-desc">Con cebollitas, champiñones y tocino, con fettuccine a la crema.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Trucha a la Meunier</h4>
+                <span class="item-price">$35.000</span>
+              </div>
+              <p class="item-desc">Con papa dorada, salsa meunier, crutones y aceite de oliva.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- LOS PLATOS PERUANOS DE SIEMPRE -->
+        <div class="menu-category-block" id="menu-cebiche" data-cat="peruanos">
+          <h3 class="category-heading">🇵🇪 LOS PLATOS PERUANOS DE SIEMPRE</h3>
+          <div class="menu-items-grid">
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">La Papa a la Huancaína</h4>
+                <span class="item-price">$25.000</span>
+              </div>
+              <p class="item-desc">La amarilla cremosita con su huevo y aceituna.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Las Causas (Atún / Pollo / Langostinos)</h4>
+                <span class="item-price">Desde $20.300</span>
+              </div>
+              <p class="item-desc">De atún ($21.300) · De pollo ($20.300) · De langostinos ($25.000)</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Papas Rellenas</h4>
+                <span class="item-price">$14.500</span>
+              </div>
+              <p class="item-desc">Con su criolla, ocopa y crema de rocoto Dúo.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Anticuchos de Corazón</h4>
+                <span class="item-price">$19.300</span>
+              </div>
+              <p class="item-desc">Con papas doradas, choclo y salsas tradicionalmente servidas en parrilla.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Tiradito Dos Cremas</h4>
+                <span class="item-price">$24.000</span>
+              </div>
+              <p class="item-desc">De pescado, bañado con sus dos cremas de ají amarillo y rocoto.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Cebiche Clásico</h4>
+                <span class="item-price">$25.000</span>
+              </div>
+              <p class="item-desc">De pescado en su versión clásica limeña al ají limo.</p>
+            </div>
+
+            <div class="menu-item-card featured-item">
+              <div class="item-header">
+                <h4 class="item-name">Piqueo Criollo Tanta (Para Compartir)</h4>
+                <span class="item-price">$41.000</span>
+              </div>
+              <p class="item-desc">Tamalito verde, papa rellena, anticuchines de corazón, papa a la huancaína, yuca frita con ocopa y causa de pollo.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Ají de Gallina</h4>
+                <span class="item-price">$27.500</span>
+              </div>
+              <p class="item-desc">Hecho según receta antigua, acompañado de papa y arroz con choclo.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Tallarines Saltados Criollos al Wok</h4>
+                <span class="item-price">Desde $32.000</span>
+              </div>
+              <p class="item-desc">De pollo ($32.000) · De lomo ($35.900)</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Nuestros Saltados Criollos de Siempre</h4>
+                <span class="item-price">Desde $30.000</span>
+              </div>
+              <p class="item-desc">Con cebollas, tomates, ajíes, papas amarillas fritas y arroz con choclo. De pollo ($30.000) · De lomo fino de res ($36.000)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- LOS POSTRES -->
+        <div class="menu-category-block" data-cat="postres">
+          <h3 class="category-heading">🍰 LOS POSTRES</h3>
+          <div class="menu-items-grid">
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Lucumita</h4>
+                <span class="item-price">$15.500</span>
+              </div>
+              <p class="item-desc">Tarta de cacao rellena de cremoso de chocolate con leche, con nibs de chocolate y quenelles de lúcuma.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Bombón Sublime</h4>
+                <span class="item-price">$11.000</span>
+              </div>
+              <p class="item-desc">Base de crocante con una mousse de maní bañado en chocolate con maní acompañado de una ganache de caramelo salado.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Torta Tres Leches con Dulce de Leche</h4>
+                <span class="item-price">$13.000</span>
+              </div>
+              <p class="item-desc">Bizcochuelo húmedo en tres leches de dulce de leche y relleno con dulce de leche acompañado con chantilly.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">La Caribeña</h4>
+                <span class="item-price">$11.000</span>
+              </div>
+              <p class="item-desc">Mousse de dulce de leche relleno de crema de maracuyá, compota de ananá y mousse de coco; bañado con brillo de maracuyá y quenelle de coco.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Crema Volteada</h4>
+                <span class="item-price">$11.000</span>
+              </div>
+              <p class="item-desc">Flan cremoso de leche condensada y leche evaporada, coronado con crema y dulce de leche.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Tres Leches Clásico</h4>
+                <span class="item-price">$13.000</span>
+              </div>
+              <p class="item-desc">Bizcochuelo esponjoso bañado en tres leches acompañado de chantilly de vainilla.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Suspiro Limeño</h4>
+                <span class="item-price">$13.000</span>
+              </div>
+              <p class="item-desc">Reducción de leche evaporada condensada con yemas y merengue italiano de Malamado.</p>
+            </div>
+
+            <div class="menu-item-card">
+              <div class="item-header">
+                <h4 class="item-name">Esfera de Chocolate</h4>
+                <span class="item-price">$14.000</span>
+              </div>
+              <p class="item-desc">Mousse de chocolate amargo relleno de almendras garrapiñadas y toffee, base de galleta de coco, terciopelo de chocolate amargo con decorado de macarrón.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section class="section reviews-section" id="opiniones">
+    <div class="container">
+      <div class="reviews-header flex-between">
+        <div>
+          <span class="section-tag">RESEÑAS DESTACADAS</span>
+          <h2 class="section-title">Lo que dicen nuestros comensales</h2>
+        </div>
+        <div class="overall-rating-badge">
+          <div class="rating-number">4.5</div>
+          <div class="stars">★★★★★</div>
+          <div class="rating-count">Más de 8.700+ opiniones en Google</div>
+        </div>
+      </div>
+
+      <div class="reviews-carousel" id="reviewsCarousel">
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">
+            "Si te gusta la comida asiática y la comida latina, y te encanta la idea de que se fusionen en un solo sabor... este lugar es para ti. La decoración es impresionante. El servicio es muy bueno y súper rápido. Recomiendo la Paella."
+          </p>
+          <div class="review-author">
+            <div class="author-avatar">C</div>
+            <div>
+              <strong>Clayton</strong>
+              <span>Cliente verificado</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">★★★★☆</div>
+          <p class="review-text">
+            "En general, una experiencia maravillosa. La comida estaba deliciosa (probamos el cebiche clásico, el cebiche dos cremas y el lomo saltado). El pisco sour es imperdible y muy bien logrado. El espacio es hermoso."
+          </p>
+          <div class="review-author">
+            <div class="author-avatar">CG</div>
+            <div>
+              <strong>Caitlynne Goodlett</strong>
+              <span>Cliente verificado</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">★★★★☆</div>
+          <p class="review-text">
+            "Gran diseño interior. Muy elegante, con un espacio verde rodeado de cristales que se siente como un minibosque junto a tu mesa. Las porciones tienen el tamaño justo y la atención es muy amable."
+          </p>
+          <div class="review-author">
+            <div class="author-avatar">RT</div>
+            <div>
+              <strong>Robert Thijssen</strong>
+              <span>Cliente verificado</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">
+            "Un lugar realmente acogedor y cálido. La atmósfera es fantástica y disfrutamos mucho el tiempo allí. La atención fue excelente, especialmente por parte de Ariana. Comida deliciosa y precios muy razonables."
+          </p>
+          <div class="review-author">
+            <div class="author-avatar">BR</div>
+            <div>
+              <strong>banana root</strong>
+              <span>Cliente verificado</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location & Hours Section -->
+  <section class="section location-section" id="ubicacion">
+    <div class="container">
+      <div class="grid grid-2 gap-xl items-stretch">
+
+        <!-- Location Info & Hours -->
+        <div class="location-info-card">
+          <span class="section-tag">VISÍTANOS</span>
+          <h2 class="section-title">Horarios y Dirección</h2>
+
+          <div class="address-box">
+            <div class="address-icon">📍</div>
+            <div>
+              <strong>Tanta Argentina</strong>
+              <p>Esmeralda 938, C1057 C1007ABL, Cdad. Autónoma de Buenos Aires, Argentina</p>
+            </div>
+          </div>
+
+          <div class="hours-table">
+            <div class="hours-row">
+              <span class="day">Lunes</span>
+              <span class="time">12:00 PM – 12:00 AM</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">Martes</span>
+              <span class="time">12:00 PM – 12:00 AM</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">Miércoles</span>
+              <span class="time">12:00 PM – 12:00 AM</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">Jueves</span>
+              <span class="time">12:00 PM – 12:00 AM</span>
+            </div>
+            <div class="hours-row highlight-row">
+              <span class="day">Viernes</span>
+              <span class="time">12:00 PM – 12:30 AM</span>
+            </div>
+            <div class="hours-row highlight-row">
+              <span class="day">Sábado</span>
+              <span class="time">12:00 PM – 12:30 AM</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">Domingo</span>
+              <span class="time">12:00 PM – 12:00 AM</span>
+            </div>
+          </div>
+
+          <div class="action-buttons-wrap">
+            <a href="tel:+541176176632" class="btn btn-yellow w-full">
+              📞 Llamar a Tanta: +54 11 7617-6632
+            </a>
+            <a href="https://www.instagram.com/tanta_argentina/" target="_blank" rel="noopener noreferrer" class="btn btn-outline w-full mt-sm">
+              📷 Seguir en Instagram @tanta_argentina
+            </a>
+          </div>
+        </div>
+
+        <!-- Interactive Map -->
+        <div class="map-card">
+          <iframe 
+            title="Mapa de ubicación Tanta Argentina"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.150827299105!2d-58.3798!3d-34.5991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacf4610d1a5%3A0x7d0a2732bf82e66d!2sEsmeralda%20938%2C%20C1057%20C1007ABL%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1680000000000!5m2!1ses!2sar" 
+            width="100%" 
+            height="100%" 
+            style="border:0; min-height: 380px; border-radius: 16px;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Reservation Banner -->
+  <section class="section cta-banner">
+    <div class="container text-center">
+      <h2>¿Listo para vivir una experiencia criolla inolvidable?</h2>
+      <p>Reservas y consultas telefónicas directas al restaurante.</p>
+      <div class="cta-banner-actions">
+        <a href="tel:+541176176632" class="btn btn-yellow btn-lg">📞 +54 11 7617-6632</a>
+        <a href="#menu" class="btn btn-pink btn-lg">Ver Carta Completa</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <span class="logo-title">TANTA</span>
+            <span class="logo-subtitle">ARGENTINA · BY GASTÓN ACURIO</span>
+          </div>
+          <p class="footer-desc">
+            Cocina peruana criolla y chifa contemporánea en la Cdad. Autónoma de Buenos Aires.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <p>📍 Esmeralda 938, C1057 C1007ABL, CABA</p>
+          <p>📞 <a href="tel:+541176176632">+54 11 7617-6632</a></p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Nuestras Redes</h4>
+          <p>
+            <a href="https://www.instagram.com/tanta_argentina/" target="_blank" rel="noopener noreferrer" class="social-link">
+              📸 @tanta_argentina
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom flex-between">
+        <p>&copy; <span id="currentYear"></span> Tanta Argentina. Todos los derechos reservados.</p>
+        <a href="#header" class="back-to-top">Subir ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.718b8747.js"></script>
+</body>
+</html>
